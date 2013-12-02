@@ -33,8 +33,8 @@ public class MainActivity extends Activity {
 				//If Jelly Bean or higher, button animates
 				if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
 					Intent intent = new Intent(MainActivity.this, ColorActivity.class);
-					String selectedColor = "purple";
-					intent.putExtra(ColorActivity.COLOR, selectedColor);
+					//String selectedColor = "purple";
+					//intent.putExtra(ColorActivity.COLOR, selectedColor);
 					Bundle scaleBundle = ActivityOptions.makeScaleUpAnimation(
 	                        v, 0, 0, v.getWidth(), v.getHeight()).toBundle();
 					startActivity(intent, scaleBundle);
