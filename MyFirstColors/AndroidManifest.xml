@@ -25,7 +25,8 @@
         </activity>
         <activity
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
-            android:name=".ColorActivity" />
+            android:name=".ColorActivity"
+            android:noHistory="true" />
     </application>
 
 </manifest>

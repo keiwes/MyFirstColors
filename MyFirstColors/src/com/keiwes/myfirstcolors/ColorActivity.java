@@ -1,5 +1,8 @@
 package com.keiwes.myfirstcolors;
 
+import java.util.Timer;
+import java.util.TimerTask;
+
 import android.app.Activity;
 import android.os.Bundle;
 
@@ -19,6 +22,14 @@ public class ColorActivity extends Activity {
 			setContentView(R.layout.purple_view);
 		}*/
 		
+		Timer t = new Timer();
+		t.schedule(new TimerTask() {
+			
+			@Override
+			public void run() {
+				finish();
+			}
+		}, 5000);
 	}
 	
 }
