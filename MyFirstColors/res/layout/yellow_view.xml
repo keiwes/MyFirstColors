@@ -5,13 +5,13 @@
     android:orientation="vertical" >
     
 	<Button
-		android:id="@+id/bigPurpleButton"
+		android:id="@+id/bigYellowButton"
 		android:layout_width="fill_parent"
 		android:layout_height="fill_parent"
 		android:layout_weight="1"
 		android:layout_margin="10dp"
-		android:background="@drawable/purple"
-		android:text="@string/purple" 
+		android:background="@drawable/yellow"
+		android:text="@string/yellow" 
 		android:textColor="#FFFFFF" 
 		android:textSize="60dp" />
     
