@@ -60,7 +60,10 @@ public class MainActivity extends Activity {
 			break; 
 		case R.id.brownButton:
 			selectedColor = BROWN;
-			break; 
+			break;
+		default:
+			selectedColor= PURPLE;
+			break;
 		}
 		
 		intent.putExtra(ColorActivity.COLOR, selectedColor);
