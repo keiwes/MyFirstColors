@@ -31,51 +31,39 @@ public class MainActivity extends Activity {
 	public void onClick(View v) {
 		
 		Intent intent = new Intent(MainActivity.this, ColorActivity.class);
-			
+		
+		String selectedColor = null;
+		
 		//Sends ColorActivity the button pressed to display appropriate view.
 		switch(v.getId()) {
 			
-		case R.id.purpleButton: {
-			String selectedColor = PURPLE;
-			intent.putExtra(ColorActivity.COLOR, selectedColor);
+		case R.id.purpleButton:
+			selectedColor = PURPLE;
 			break; 
-			}
-		case R.id.pinkButton: {
-			String selectedColor = PINK;
-			intent.putExtra(ColorActivity.COLOR, selectedColor);
+		case R.id.pinkButton:
+			selectedColor = PINK;
 			break; 
-			}
-		case R.id.blueButton: {
-			String selectedColor = BLUE;
-			intent.putExtra(ColorActivity.COLOR, selectedColor);
+		case R.id.blueButton:
+		    selectedColor = BLUE;
 			break; 
-			}
-		case R.id.greenButton: {
-			String selectedColor = GREEN;
-			intent.putExtra(ColorActivity.COLOR, selectedColor);
+		case R.id.greenButton:
+			selectedColor = GREEN;
 			break; 
-			}
-		case R.id.redButton: {
-			String selectedColor = RED;
-			intent.putExtra(ColorActivity.COLOR, selectedColor);
+		case R.id.redButton:
+			selectedColor = RED;
 			break; 
-			}
-		case R.id.orangeButton: {
-			String selectedColor = ORANGE;
-			intent.putExtra(ColorActivity.COLOR, selectedColor);
+		case R.id.orangeButton:
+			selectedColor = ORANGE;
 			break; 
-			}
-		case R.id.yellowButton: {
-			String selectedColor = YELLOW;
-			intent.putExtra(ColorActivity.COLOR, selectedColor);
+		case R.id.yellowButton:
+			selectedColor = YELLOW;
 			break; 
-			}
-		case R.id.brownButton: {
-			String selectedColor = BROWN;
-			intent.putExtra(ColorActivity.COLOR, selectedColor);
+		case R.id.brownButton:
+			selectedColor = BROWN;
 			break; 
-			}
 		}
+		
+		intent.putExtra(ColorActivity.COLOR, selectedColor);
 			
 		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
 			//If Jelly Bean or higher, button animates.
