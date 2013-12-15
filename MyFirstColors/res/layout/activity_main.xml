@@ -27,7 +27,8 @@
                 android:layout_weight="1"
                 android:layout_margin="10dp"
                 android:background="@drawable/purple"
-                android:text="" />
+                android:text=""
+                android:onClick="onClick" />
             
             <Button
                 android:id="@+id/pinkButton"
@@ -36,7 +37,8 @@
                 android:layout_weight="1"
                 android:layout_margin="10dp"
                 android:background="@drawable/pink"
-                android:text="" />
+                android:text=""
+                android:onClick="onClick" />
             
         </LinearLayout>
         
@@ -53,7 +55,8 @@
                 android:layout_weight="1"
                 android:layout_margin="10dp"
                 android:background="@drawable/blue"
-                android:text="" />
+                android:text=""
+                android:onClick="onClick" />
             
             <Button
                 android:id="@+id/greenButton"
@@ -62,7 +65,8 @@
                 android:layout_weight="1"
                 android:layout_margin="10dp"
                 android:background="@drawable/green"
-                android:text="" />
+                android:text=""
+                android:onClick="onClick" />
             
         </LinearLayout>
         
@@ -79,7 +83,8 @@
                 android:layout_weight="1"
                 android:layout_margin="10dp"
                 android:background="@drawable/red"
-                android:text="" />
+                android:text=""
+                android:onClick="onClick" />
             
             <Button
                 android:id="@+id/orangeButton"
@@ -88,7 +93,8 @@
                 android:layout_weight="1"
                 android:layout_margin="10dp"
                 android:background="@drawable/orange"
-                android:text="" />
+                android:text=""
+                android:onClick="onClick" />
             
         </LinearLayout>
         
@@ -105,7 +111,8 @@
                 android:layout_weight="1"
                 android:layout_margin="10dp"
                 android:background="@drawable/yellow"
-                android:text="" />
+                android:text=""
+                android:onClick="onClick" />
             
             <Button
                 android:id="@+id/brownButton"
@@ -114,7 +121,8 @@
                 android:layout_weight="1"
                 android:layout_margin="10dp"
                 android:background="@drawable/brown"
-                android:text="" />
+                android:text=""
+                android:onClick="onClick" />
             
         </LinearLayout>
     </LinearLayout>   
